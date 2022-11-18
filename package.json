@@ -1,0 +1,21 @@
+{
+  "name": "playwright-typescript",
+  "version": "1.0.0",
+  "author": "Kamil",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "help": "playwright --help",
+    "test": "npx playwright test",
+    "open:webkit": "node browsers/webkit.js",
+    "test:spec": "npx playwright test medlink-demands.spec.ts",
+    "codegen": "npx playwright codegen <url here>"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.25.1",
+    "prettier": "2.7.1"
+  }
+}
